@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.expohyd-h-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.expohyd-logo-h{
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    
+}
+.expohyd-nav{
+    list-style: none;
+    display: flex;
+    
+}
+.expohyd-nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.expohyd-nav li{
+    width: 350px;
+    height: fit-content;
+    text-align: center;
+    padding: 14px 25px;
+    margin-left: 10px;
+    background-color: grey;
+    transition: ease .5s;
+}
+.expohyd-nav li:hover{
+    background-color: brown;
+    transition: ease 1s;
+}
+.expohyd-main-cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.expohyd-main-cat{
+    display: flex;
+    justify-content: center;
+}
+.expohyd-main{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+.expohyd-cat{
+    
+    border: 1px solid brown;
+}
+.expohyd-cat-all-bakes{
+    width: 1000px;
+    display: flex;
+    margin: 20px;
+}
+.expohyd-cat-img img{
+    width: 450px;
+}
+.expohyd-cat-text{
+    width: 400px;
+
+}
